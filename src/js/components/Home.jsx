@@ -4,6 +4,7 @@ import React from "react";
 
 import Navbar from "./navbar";
 import Jumbutron from "./jumbutron";
+import CardImage from "./cards";
 
 
 
@@ -13,8 +14,11 @@ const Home = () => {
 		<div className="text-center">
             <Navbar/>
 			<Jumbutron/>
+			<CardImage/>
+			<CardImage/>
+			<CardImage/>
+			<CardImage/>
 
-			
 		</div>
 	);
 };
