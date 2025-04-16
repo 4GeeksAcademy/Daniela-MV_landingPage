@@ -3,10 +3,10 @@ import React from "react";
 const Jumbutron = () => {
     return (
         <div className="card">
-            <div className="card-body">
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+            <div className="card-body text-start">
+                <h5 className="card-title fs-1">Grandes Noticias!</h5>
+                <p className="card-text">Estas son las últimas noticias, lo que está aconteciendo en el mundo actual.</p>
+                <a href="#" className="btn btn-primary">Haz click aquí</a>
             </div>
         </div>
     )
